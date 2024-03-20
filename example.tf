@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  shared_credentials_files = "/home/student/.aws/credentials"
+   profile = "default"
   # Configuration options 
 }
     
