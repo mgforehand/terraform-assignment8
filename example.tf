@@ -9,7 +9,6 @@ terraform {
 }
 
 provider "aws" {
-   profile = "default"
   # Configuration options 
 }
     
