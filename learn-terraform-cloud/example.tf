@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Create a new VPC
 resource "aws_vpc" "tf-vpc" {
   cidr_block = "10.0.0.0/16"
@@ -111,6 +112,8 @@ output "prod" {
   value = aws_instance.instance[2].public_ip
 }
 ➜  terra cat example.tf 
+=======
+>>>>>>> 1ccab62 (test1)
 terraform {
   required_providers {
     aws = {
