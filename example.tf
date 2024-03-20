@@ -1,4 +1,4 @@
-# Provider code yay
+# Provider code no
 terraform {
   required_providers {
     aws = {
