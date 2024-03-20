@@ -78,7 +78,7 @@ resource "aws_route_table_association" "a" {
 # Create an AWS Key Pair
 resource "aws_key_pair" "tf-key" {
   key_name   = "tf-key"
-  public_key = file("./id_rsa.pub") 
+  public_key = file("${path.module}/id_rsa.pub") 
 }
 
 resource "aws_instance" "instance" {
