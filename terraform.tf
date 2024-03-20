@@ -4,7 +4,7 @@ terraform {
     organization = "mikesworld"
 
     workspaces {
-      name = "it3110-bash-stuff-mgforehand"
+      name = "terraform-assignment8"
     }
   }
 
