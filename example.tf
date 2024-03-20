@@ -8,7 +8,8 @@ terraform {
   }
 }
 
-provider "aws" { 
+provider "aws" {
+  shared_credentials_file = "/home/student/.aws/credentials"
   # Configuration options 
 }
     
