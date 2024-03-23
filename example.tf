@@ -3,7 +3,7 @@ terraform {
     organization = "mikesworld"
 
     workspaces {
-      name = "terraform-assignment8"
+      name = "terraform8-assignment8"
     }
   }
 }
