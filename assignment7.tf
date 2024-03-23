@@ -1,7 +1,7 @@
 # hope this works  5
 provider "aws" {
   region = "us-east-1"
-  profile = [Default]
+  profile = "Default"
 }
 # Create a new VPC please work
 resource "aws_vpc" "tf-vpc" {
